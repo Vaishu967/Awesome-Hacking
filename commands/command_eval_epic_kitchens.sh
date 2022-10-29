@@ -9,4 +9,3 @@ environment.data_dir=/home/data/ \
 logging.save_freq=10 optim=sgd_lincls optim.epochs=30 optim.schedule=[18,24] optim.batch_size=128 \
 optim.args.lr=0.005 environment.resume=False \
 logging.suffix="_eval" train_algo.normalize_feats=False
-Footer
